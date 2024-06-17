@@ -1,0 +1,40 @@
+{
+    "subjectcode": {
+      "Description": "Unique participant label"
+    },
+    "sex": {
+      "Description": "Participant sex",
+      "Levels": {
+        "M": "Male",
+        "F": "Female"
+      }
+    },
+    "age": {
+      "Description": "Participant age",
+      "Units": "years"
+    },
+    "exercise": {
+      "Description": "Participant answer to the question 'Do you exercise regularly?'",
+      "Levels": {
+        "0": "No",
+        "1": "Yes"
+      }
+    },
+    "smoker": {
+      "Description": "Participant answer to the question 'Do you smoke regularly?'",
+      "Levels": {
+        "0": "No",
+        "1": "Yes"
+      }
+    },
+    "observations": {
+      "Description": "Observations that might affect the signal quality",
+      "Examples": [
+        "Painted nails",
+        "Pacemaker",
+        "Heart disease",
+        "Hand tremor"
+      ]
+    }
+}
+  
